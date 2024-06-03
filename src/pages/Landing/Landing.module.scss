@@ -1,0 +1,100 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    // justify-content: center;
+    // align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-image {
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode: normal;
+    background: url('../../app/assets/background/landing-page-2.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f4f3ef;
+}
+
+.background-container {
+    width: 70%;
+    height: auto;
+    max-width: 50rem;
+    color: transparent;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 1;
+    font-size: 2.5rem;
+    align-content: flex-start;
+    flex-direction: column;
+    font-family: 'Lucida Sans';
+}
+
+.title-container{
+
+    h1 {
+        color: rgb(55, 71, 80) !important;
+    }
+    h3 {
+        color: rgb(85, 111, 124) !important;
+    }
+}
+
+.title-container h3 {
+    font-weight: 500;
+    font-family: 'Courier New';
+}
+
+.landing-panel-container {
+    display: grid;
+    justify-content: start;
+    align-items: stretch;
+    height: 100%;
+}
+
+.log-sign-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+    height: 100%;
+    margin: 0 0 0 7rem;
+}
+
+.log-sign-container button {
+    background-color: rgba(255, 255, 255, 0.78) !important;
+    border: 2px solid rgb(85, 111, 124)  !important;
+    border-radius: 10px !important;
+    box-shadow: none;
+    width: 12rem;
+    height: 12rem;
+    color: rgb(85, 111, 124) ;
+    background-color: transparent;
+    overflow: hidden;
+
+    :first-child {
+        font-size: 2rem !important;
+    }
+}
+
+.log-sign-container button:hover {
+    border: 3px solid rgb(64, 83, 94) !important;
+    transition: border ease-in-out 200ms;
+}
+
+.log-sign-container button span{
+    font-size: 1.25rem;
+}
+
+.pi-sign-in,
+.pi-user-edit {
+    font-size: 2rem !important;
+    color: #2E2020;
+    margin: 0 0 0 1rem;
+}

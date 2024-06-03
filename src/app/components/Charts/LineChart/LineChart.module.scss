@@ -1,0 +1,25 @@
+.show-hide-markers{
+    min-width: 5rem;
+    height: 2rem;
+    text-transform: unset !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: rgb(96, 125, 139);
+
+    .show-hide-markers-title{
+        margin-left: 1rem;
+    }
+
+    span[class^="MuiButtonBase-root"][class*="Mui-checked"] {
+        color: rgb(254, 178, 25) !important; 
+      }
+    
+    > span > :first-child{
+        border-color: black;
+        color: rgb(190, 163, 105) !important;
+    } 
+
+    >span > :last-child{
+        background-color: rgb(192, 174, 139) !important;
+    }
+}

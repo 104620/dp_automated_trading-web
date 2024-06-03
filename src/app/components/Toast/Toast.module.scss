@@ -1,0 +1,14 @@
+.Toastify__toast-icon{
+    width: 1.6875rem !important;
+}
+
+.toastify-container{
+    min-width: 20rem;
+    width: max-content !important;
+}
+
+.toast-message-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
